@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  text-align: center;
+}
+
+.main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 10rem;
+  width: 10rem;
+  border: 2px solid black;
+  border-radius: 2rem;
+  margin: 3rem 1rem;
+}
+
+.red {
+  background-color: rgb(196, 79, 79);
+}
+.yellow {
+  background-color: rgb(224, 224, 83);
+}
+
+.blue {
+  background-color: rgb(72, 72, 173);
+}
+
+.green {
+  background-color: rgb(84, 214, 84);
+}
